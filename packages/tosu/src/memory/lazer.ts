@@ -1362,9 +1362,9 @@ export class LazerMemory extends AbstractMemory<LazerPatternData> {
             return undefined;
         }
 
-        if (!this.isHitCircle(hitObject)) {
-            return undefined;
-        }
+        // if (!this.isHitCircle(hitObject)) {
+        //     return undefined;
+        // }
 
         const hitResult = this.process.readInt(address + 0x18);
         if (!this.isResultHit(hitResult)) {
