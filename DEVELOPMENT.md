@@ -6,6 +6,7 @@
 - `Node.js` >=20.11.1
 - `Rust` >= any
 - `pnpm` >= 10.10.0
+- **Visual Studio Build Tools** with latest **Windows 10 SDK** or **Windows 11 SDK**
 
 <br />
 
